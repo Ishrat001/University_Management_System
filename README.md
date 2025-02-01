@@ -27,27 +27,27 @@ The University Management System is a Java-based application developed using Ecl
 ### Installation
 
 Follow this to set up the project:
-** before install , you need eclipse IDE, Java JDk, MySQL, MySQL connector library, some additional library (you will get in the src folder)
+** before install , you need eclipse IDE, Java JDk, MySQL, MySQL connector library, some additional library (you will gate the library folder)
 
 ** Create a database using MySQL Command Line Client  "universitymanagementsystem" which contains following tables(column)
 
-	*examdetails(course, department, examname, startdate, 			enddate)
+	*examdetails(course, department, examname, startdate, enddate)
 
-	*fee(course, semester2, semester3, semester4, semester5, 		semester6, semester7, semester8)
+	*fee(course, semester2, semester3, semester4, semester5, semester6, semester7, semester8)
 
 	*login(username, password)
 
-	*marks(rollno, semester, marks1, marks2, marks3, marks4, 		marks5)
+	*marks(rollno, semester, marks1, marks2, marks3, marks4, marks5)
 
-	*student(name, fname, rollno, dob, address, phone, email, 		class_x, classxii, nid, course, department)
+	*student(name, fname, rollno, dob, address, phone, email, class_x, classxii, nid, course, department)
 
 	*studentfee(rollno, course, department, semester, total)
 
 	*studentleave(rollno, date, duration)
 
-	*subject(rollno, semester, subject1, subject2, subject3, 		subject4, subject5)
+	*subject(rollno, semester, subject1, subject2, subject3, subject4, subject5)
 
-	*teacher(name, fname, empId, dob, address, phone, email, 		class_x, classxii, nid, education, department)
+	*teacher(name, fname, empId, dob, address, phone, email, class_x, classxii, nid, education, department)
 
 	*teacherleave(empId, date, duration)
  
